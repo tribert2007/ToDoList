@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+h1 {
+  font-size: 5em;
+  color: #333;
+  padding: 0.5rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: auto;
+  max-width: 80%;
+  border-radius: 0.5rem;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
+}
+input {
+  padding: 1rem;
+  width: 80%;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 1px solid;
+  font-size: 1.1em;
+  background-color: rgb(250, 250, 250);
+}
+
+button {
+  padding: 0.7rem;
+  margin: 0.5rem;
+  margin-top: -5px;
+  border-radius: 0.5rem;
+  border: 1px solid;
+  font-size: 1.1em;
+}
+#taskList {
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.tasks {
+  border: 1px solid;
+  border-radius: 0.3rem;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(238, 237, 237);
+}
+i {
+  margin-right: 10px;
+}
+.validation {
+  color: red;
+  margin-top: 10px;
+  font-size: 1em;
+  text-align: center;
+  border: 1px solid red;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: rgb(250, 221, 221);
+  display: none;
+}
